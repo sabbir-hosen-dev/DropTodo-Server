@@ -20,7 +20,7 @@ app.use((req, res, next) => {
     next();
 });
 const allowedOrigins = [
-    'https://parcelpop-project.web.app', // Production frontend
+    'https://drop-todo.netlify.app', // Production frontend
     'http://localhost:5173', // Development frontend
 ];
 

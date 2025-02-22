@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: your-app-name
+    runtime: node
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: MONGODB_URI
+        value: mongodb+srv://sabbir:sabbir123456@cluster0.oe1x1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
